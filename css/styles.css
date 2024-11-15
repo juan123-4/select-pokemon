@@ -1,1 +1,56 @@
 
+h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-transform: uppercase;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl_gpCj-zU-lcOjjXR3UuEcLkoU8uvH6wUGg&s");
+    background-position: center;
+    background-size:contain;
+    color: yellow;}
+.pokemon-form{
+    display: flex;
+    justify-content: space-around;}
+.container img{
+    width: 300px;
+    height: 300px;}
+body{
+    background-image: url("https://pbs.twimg.com/profile_images/1118451387543826432/ar8YCtAy_400x400.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;}
+#Información_pokemon p{
+    position: relative;
+    left: 100px;
+    background-color: black ;
+    color: white;}
+#get-pokemon{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 150px;
+    background-image: url("https://phantom-marca.unidadeditorial.es/0773be0be916fcedef0d1a7acdd392e7/resize/828/f/jpg/assets/multimedia/imagenes/2024/04/18/17134478892062.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-size: 20px;}
+#pokemon-select{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 150px;
+    background-image: url("https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2016/02/562568-pokemon-mundo-megamisterioso-analisis.png?tf=3840x");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    font-size: 20px;}
+    .container img{animation:pokemon 4s infinite;}
+    @keyframes pokemon {
+        0%{transform: translate(90px,0px);}
+        25%{transform: translate(-90px,0px);}
+        50%{transform: translate(90px,0px);}
+        75%{transform: translate(-90px,0px);}
+        100%{transform: translate(90px,0px);}
+    }
